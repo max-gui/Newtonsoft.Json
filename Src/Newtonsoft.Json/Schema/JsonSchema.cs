@@ -26,11 +26,11 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Utilities;
+using CNewtonsoft.Json.Linq;
+using CNewtonsoft.Json.Utilities;
 using System.Globalization;
 
-namespace Newtonsoft.Json.Schema
+namespace CNewtonsoft.Json.Schema
 {
     /// <summary>
     /// <para>

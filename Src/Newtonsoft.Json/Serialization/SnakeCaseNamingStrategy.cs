@@ -1,6 +1,6 @@
-﻿using Newtonsoft.Json.Utilities;
+﻿using CNewtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json.Serialization
+namespace CNewtonsoft.Json.Serialization
 {
     /// <summary>
     /// A snake case naming strategy.

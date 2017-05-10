@@ -31,17 +31,17 @@ using System.Threading.Tasks;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
-using Assert = Newtonsoft.Json.Tests.XUnitAssert;
+using Assert = CNewtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
+using CNewtonsoft.Json.Converters;
+using CNewtonsoft.Json.Linq;
+using CNewtonsoft.Json.Tests.TestObjects.Organization;
 using System.Linq;
 using System.IO;
 
-namespace Newtonsoft.Json.Tests.Linq
+namespace CNewtonsoft.Json.Tests.Linq
 {
     [TestFixture]
     public class LinqToJsonAsyncTests : TestFixtureBase

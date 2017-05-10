@@ -23,9 +23,9 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-using Newtonsoft.Json.Converters;
+using CNewtonsoft.Json.Converters;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace CNewtonsoft.Json.Tests.TestObjects
 {
     [JsonConverter(typeof(IsoDateTimeConverter))]
     public class IncompatibleJsonAttributeClass

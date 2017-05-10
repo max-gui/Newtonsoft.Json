@@ -31,24 +31,24 @@ using System.Runtime.Serialization;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
-using Assert = Newtonsoft.Json.Tests.XUnitAssert;
+using Assert = CNewtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using CNewtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
+using CNewtonsoft.Json.Serialization;
+using CNewtonsoft.Json.Tests.TestObjects;
+using CNewtonsoft.Json.Tests.TestObjects.Organization;
 using System.Reflection;
-using Newtonsoft.Json.Utilities;
+using CNewtonsoft.Json.Utilities;
 using System.Globalization;
-using Newtonsoft.Json.Linq;
+using CNewtonsoft.Json.Linq;
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace CNewtonsoft.Json.Tests.Serialization
 {
     public class DynamicContractResolver : DefaultContractResolver
     {

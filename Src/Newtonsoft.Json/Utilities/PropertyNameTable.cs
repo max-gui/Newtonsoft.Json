@@ -25,7 +25,7 @@
 
 using System;
 
-namespace Newtonsoft.Json.Utilities
+namespace CNewtonsoft.Json.Utilities
 {
     internal class PropertyNameTable
     {

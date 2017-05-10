@@ -24,20 +24,20 @@
 #endregion
 
 using System;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
+using CNewtonsoft.Json.Tests.TestObjects;
+using CNewtonsoft.Json.Tests.TestObjects.Organization;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
-using Assert = Newtonsoft.Json.Tests.XUnitAssert;
+using Assert = CNewtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Utilities;
+using CNewtonsoft.Json.Converters;
+using CNewtonsoft.Json.Utilities;
 using System.Globalization;
 
-namespace Newtonsoft.Json.Tests.Converters
+namespace CNewtonsoft.Json.Tests.Converters
 {
     [TestFixture]
     public class IsoDateTimeConverterTests : TestFixtureBase

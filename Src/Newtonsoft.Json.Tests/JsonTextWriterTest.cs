@@ -28,7 +28,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using CNewtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
@@ -38,18 +38,18 @@ using System.Xml;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
-using Assert = Newtonsoft.Json.Tests.XUnitAssert;
+using Assert = CNewtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json;
+using CNewtonsoft.Json;
 using System.IO;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Tests.TestObjects.JsonTextReaderTests;
-using Newtonsoft.Json.Utilities;
+using CNewtonsoft.Json.Converters;
+using CNewtonsoft.Json.Linq;
+using CNewtonsoft.Json.Tests.TestObjects.JsonTextReaderTests;
+using CNewtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json.Tests
+namespace CNewtonsoft.Json.Tests
 {
     [TestFixture]
     public class JsonTextWriterTest : TestFixtureBase

@@ -1,6 +1,6 @@
 using System;
 
-namespace Newtonsoft.Json.Linq
+namespace CNewtonsoft.Json.Linq
 {
     /// <summary>
     /// Specifies the settings used when merging JSON.

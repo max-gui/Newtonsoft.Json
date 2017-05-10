@@ -32,17 +32,17 @@ using System.Reflection;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
-using Assert = Newtonsoft.Json.Tests.XUnitAssert;
+using Assert = CNewtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Utilities;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
-using Newtonsoft.Json.Tests.Serialization;
+using CNewtonsoft.Json.Serialization;
+using CNewtonsoft.Json.Utilities;
+using CNewtonsoft.Json.Tests.TestObjects;
+using CNewtonsoft.Json.Tests.TestObjects.Organization;
+using CNewtonsoft.Json.Tests.Serialization;
 
-namespace Newtonsoft.Json.Tests.Utilities
+namespace CNewtonsoft.Json.Tests.Utilities
 {
     [TestFixture]
     public class ExpressionReflectionDelegateFactoryTests : TestFixtureBase

@@ -33,8 +33,8 @@ using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
+using CNewtonsoft.Json.Converters;
+using CNewtonsoft.Json.Linq;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -42,15 +42,15 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Schema;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Utilities;
+using CNewtonsoft.Json.Schema;
+using CNewtonsoft.Json.Serialization;
+using CNewtonsoft.Json.Tests.TestObjects;
+using CNewtonsoft.Json.Utilities;
 using System.Globalization;
-using ErrorEventArgs = Newtonsoft.Json.Serialization.ErrorEventArgs;
+using ErrorEventArgs = CNewtonsoft.Json.Serialization.ErrorEventArgs;
 using File = System.IO.File;
 
-namespace Newtonsoft.Json.Tests.Documentation
+namespace CNewtonsoft.Json.Tests.Documentation
 {
     public class JsonSchemaTests
     {

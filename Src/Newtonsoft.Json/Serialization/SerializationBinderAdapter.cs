@@ -26,7 +26,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace Newtonsoft.Json.Serialization
+namespace CNewtonsoft.Json.Serialization
 {
     internal class SerializationBinderAdapter : ISerializationBinder
     {

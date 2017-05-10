@@ -28,21 +28,21 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using CNewtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
-using Newtonsoft.Json.Linq;
+using CNewtonsoft.Json.Linq;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
-using Assert = Newtonsoft.Json.Tests.XUnitAssert;
+using Assert = CNewtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
 using System.IO;
 
-namespace Newtonsoft.Json.Tests.Linq
+namespace CNewtonsoft.Json.Tests.Linq
 {
     [TestFixture]
     public class JPropertyTests : TestFixtureBase

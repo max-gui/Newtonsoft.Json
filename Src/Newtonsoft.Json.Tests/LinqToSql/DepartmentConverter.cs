@@ -33,9 +33,9 @@ using Newtonsoft.Json.Utilities.LinqBridge;
 using System.Linq;
 #endif
 using System.Text;
-using Newtonsoft.Json.Linq;
+using CNewtonsoft.Json.Linq;
 
-namespace Newtonsoft.Json.Tests.LinqToSql
+namespace CNewtonsoft.Json.Tests.LinqToSql
 {
     public class DepartmentConverter : JsonConverter
     {

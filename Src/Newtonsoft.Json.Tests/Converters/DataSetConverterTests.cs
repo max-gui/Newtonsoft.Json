@@ -25,7 +25,7 @@
 
 #if !(PORTABLE || DNXCORE50 || PORTABLE40)
 using System;
-using Newtonsoft.Json.Converters;
+using CNewtonsoft.Json.Converters;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -33,11 +33,11 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
+using CNewtonsoft.Json.Serialization;
+using CNewtonsoft.Json.Tests.TestObjects;
 using System.Data;
 
-namespace Newtonsoft.Json.Tests.Converters
+namespace CNewtonsoft.Json.Tests.Converters
 {
     public class DataSetConverterTests : TestFixtureBase
     {

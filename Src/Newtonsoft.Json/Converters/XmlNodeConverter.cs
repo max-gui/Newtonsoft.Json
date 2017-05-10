@@ -32,14 +32,14 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Xml;
-using Newtonsoft.Json.Serialization;
+using CNewtonsoft.Json.Serialization;
 #if HAVE_XLINQ
 using System.Xml.Linq;
 #endif
-using Newtonsoft.Json.Utilities;
+using CNewtonsoft.Json.Utilities;
 using System.Runtime.CompilerServices;
 
-namespace Newtonsoft.Json.Converters
+namespace CNewtonsoft.Json.Converters
 {
     #region XmlNodeWrappers
 #if HAVE_XML_DOCUMENT

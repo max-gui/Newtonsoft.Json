@@ -29,17 +29,17 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using CNewtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
 using System.Reflection;
 using System.Text;
 using NUnit.Framework;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Schema;
+using CNewtonsoft.Json.Linq;
+using CNewtonsoft.Json.Schema;
 
-namespace Newtonsoft.Json.Tests.Schema
+namespace CNewtonsoft.Json.Tests.Schema
 {
     public class JsonSchemaSpecTest
     {

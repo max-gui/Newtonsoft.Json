@@ -26,7 +26,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Newtonsoft.Json.Utilities;
+using CNewtonsoft.Json.Utilities;
 using System.Globalization;
 #if HAVE_DYNAMIC
 using System.Dynamic;
@@ -36,7 +36,7 @@ using System.Linq.Expressions;
 using System.Numerics;
 #endif
 
-namespace Newtonsoft.Json.Linq
+namespace CNewtonsoft.Json.Linq
 {
     /// <summary>
     /// Represents a value in JSON (string, integer, date, etc).

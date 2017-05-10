@@ -31,16 +31,16 @@ using System.Text;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
-using Assert = Newtonsoft.Json.Tests.XUnitAssert;
+using Assert = CNewtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
 using System.IO;
 using System.Threading.Tasks;
-using Newtonsoft.Json.Tests.TestObjects.JsonTextReaderTests;
-using Newtonsoft.Json.Utilities;
+using CNewtonsoft.Json.Tests.TestObjects.JsonTextReaderTests;
+using CNewtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json.Tests.JsonTextReaderTests
+namespace CNewtonsoft.Json.Tests.JsonTextReaderTests
 {
     [TestFixture]
 #if !DNXCORE50

@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using Newtonsoft.Json.Utilities;
+using CNewtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json.Schema
+namespace CNewtonsoft.Json.Schema
 {
     /// <summary>
     /// <para>

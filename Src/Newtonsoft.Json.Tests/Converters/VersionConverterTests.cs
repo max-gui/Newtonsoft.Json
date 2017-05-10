@@ -24,17 +24,17 @@
 #endregion
 
 using System;
-using Newtonsoft.Json.Converters;
+using CNewtonsoft.Json.Converters;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
-using Assert = Newtonsoft.Json.Tests.XUnitAssert;
+using Assert = CNewtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Converters
+namespace CNewtonsoft.Json.Tests.Converters
 {
     public class VersionClass
     {

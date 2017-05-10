@@ -28,15 +28,15 @@ using System.Collections.Generic;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
-using Assert = Newtonsoft.Json.Tests.XUnitAssert;
+using Assert = CNewtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Tests.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
+using CNewtonsoft.Json.Converters;
+using CNewtonsoft.Json.Tests.Serialization;
+using CNewtonsoft.Json.Tests.TestObjects;
 
-namespace Newtonsoft.Json.Tests.Converters
+namespace CNewtonsoft.Json.Tests.Converters
 {
     [TestFixture]
     public class JavaScriptDateTimeConverterTests : TestFixtureBase

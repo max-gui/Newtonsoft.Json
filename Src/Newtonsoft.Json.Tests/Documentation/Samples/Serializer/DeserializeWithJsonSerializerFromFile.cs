@@ -30,13 +30,13 @@ using System.Text;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
-using Assert = Newtonsoft.Json.Tests.XUnitAssert;
+using Assert = CNewtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
 using File = System.IO.File;
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Serializer
+namespace CNewtonsoft.Json.Tests.Documentation.Samples.Serializer
 {
     [TestFixture]
     public class DeserializeWithJsonSerializerFromFile : TestFixtureBase

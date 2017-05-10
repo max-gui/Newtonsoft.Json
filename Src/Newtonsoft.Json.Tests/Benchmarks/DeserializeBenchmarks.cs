@@ -32,11 +32,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using BenchmarkDotNet.Attributes;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Tests.TestObjects;
+using CNewtonsoft.Json.Linq;
+using CNewtonsoft.Json;
+using CNewtonsoft.Json.Tests.TestObjects;
 
-namespace Newtonsoft.Json.Tests.Benchmarks
+namespace CNewtonsoft.Json.Tests.Benchmarks
 {
     public class DeserializeBenchmarks
     {

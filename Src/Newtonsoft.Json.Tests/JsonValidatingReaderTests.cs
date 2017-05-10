@@ -28,7 +28,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using CNewtonsoft.Json.Utilities.LinqBridge;
 #endif
 #if !(NET20 || NET35 || PORTABLE) || NETSTANDARD1_3
 using System.Numerics;
@@ -37,18 +37,18 @@ using System.Text;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
-using Assert = Newtonsoft.Json.Tests.XUnitAssert;
+using Assert = CNewtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
 using System.Xml;
 using System.Xml.Schema;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Schema;
-using Newtonsoft.Json.Utilities;
-using ValidationEventArgs = Newtonsoft.Json.Schema.ValidationEventArgs;
+using CNewtonsoft.Json.Linq;
+using CNewtonsoft.Json.Schema;
+using CNewtonsoft.Json.Utilities;
+using ValidationEventArgs = CNewtonsoft.Json.Schema.ValidationEventArgs;
 
-namespace Newtonsoft.Json.Tests
+namespace CNewtonsoft.Json.Tests
 {
     [TestFixture]
     public class JsonValidatingReaderTests : TestFixtureBase

@@ -23,11 +23,11 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-using Newtonsoft.Json.Linq;
+using CNewtonsoft.Json.Linq;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
-using Assert = Newtonsoft.Json.Tests.XUnitAssert;
+using Assert = CNewtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
@@ -37,7 +37,7 @@ using System.Text;
 
 #if !NET20
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Linq
+namespace CNewtonsoft.Json.Tests.Documentation.Samples.Linq
 {
     [TestFixture]
     public class JTokenAnnotation : TestFixtureBase

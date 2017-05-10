@@ -26,9 +26,9 @@
 using System;
 using System.Diagnostics;
 using BenchmarkDotNet.Running;
-using Newtonsoft.Json.Tests.Benchmarks;
+using CNewtonsoft.Json.Tests.Benchmarks;
 
-namespace Newtonsoft.Json.TestConsole
+namespace CNewtonsoft.Json.TestConsole
 {
     public class Program
     {

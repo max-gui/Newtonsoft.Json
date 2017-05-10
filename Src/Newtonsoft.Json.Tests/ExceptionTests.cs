@@ -28,17 +28,17 @@ using System.IO;
 #if !(PORTABLE || DNXCORE50)
 using System.Runtime.Serialization.Formatters.Binary;
 #endif
-using Newtonsoft.Json.Schema;
+using CNewtonsoft.Json.Schema;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
-using Assert = Newtonsoft.Json.Tests.XUnitAssert;
+using Assert = CNewtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests
+namespace CNewtonsoft.Json.Tests
 {
     [TestFixture]
     public class ExceptionTests : TestFixtureBase

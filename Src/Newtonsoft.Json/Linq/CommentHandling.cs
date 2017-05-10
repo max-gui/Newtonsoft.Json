@@ -1,4 +1,4 @@
-﻿namespace Newtonsoft.Json.Linq
+﻿namespace CNewtonsoft.Json.Linq
 {
     /// <summary>
     /// Specifies how JSON comments are handled when loading JSON.

@@ -25,7 +25,7 @@
 
 using System;
 
-namespace Newtonsoft.Json.Tests.TestObjects.JsonTextReaderTests
+namespace CNewtonsoft.Json.Tests.TestObjects.JsonTextReaderTests
 {
     public class UnmanagedResourceFakingJsonReader : JsonReader
     {

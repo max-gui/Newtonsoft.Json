@@ -29,9 +29,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Web;
-using Newtonsoft.Json.Linq;
+using CNewtonsoft.Json.Linq;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using CNewtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
@@ -44,7 +44,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Linq
+namespace CNewtonsoft.Json.Tests.Documentation.Samples.Linq
 {
     [TestFixture]
     public class SerializeWithLinq : TestFixtureBase

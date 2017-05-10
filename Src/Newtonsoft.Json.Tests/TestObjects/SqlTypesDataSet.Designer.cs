@@ -12,7 +12,7 @@
 
 #pragma warning disable 1591
 
-namespace Newtonsoft.Json.Tests.TestObjects {
+namespace CNewtonsoft.Json.Tests.TestObjects {
     
     
     /// <summary>

@@ -29,18 +29,18 @@ using System.Globalization;
 #if HAVE_BIG_INTEGER
 using System.Numerics;
 #endif
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Utilities;
+using CNewtonsoft.Json.Linq;
+using CNewtonsoft.Json.Utilities;
 using System.Xml;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Serialization;
+using CNewtonsoft.Json.Converters;
+using CNewtonsoft.Json.Serialization;
 using System.Text;
 #if HAVE_XLINQ
 using System.Xml.Linq;
 
 #endif
 
-namespace Newtonsoft.Json
+namespace CNewtonsoft.Json
 {
     /// <summary>
     /// Provides methods for converting between .NET types and JSON types.

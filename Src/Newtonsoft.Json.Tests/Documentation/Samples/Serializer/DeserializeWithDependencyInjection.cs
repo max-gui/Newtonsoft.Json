@@ -36,15 +36,15 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Serialization;
+using CNewtonsoft.Json.Linq;
+using CNewtonsoft.Json.Serialization;
 using Autofac;
 using Autofac.Core;
 using Autofac.Core.Activators.Reflection;
-using Newtonsoft.Json.Tests.Serialization;
-using LogService = Newtonsoft.Json.Tests.Serialization.LogManager;
+using CNewtonsoft.Json.Tests.Serialization;
+using LogService = CNewtonsoft.Json.Tests.Serialization.LogManager;
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Serializer
+namespace CNewtonsoft.Json.Tests.Documentation.Samples.Serializer
 {
     [TestFixture]
     public class DeserializeWithDependencyInjection : TestFixtureBase

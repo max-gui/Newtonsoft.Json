@@ -27,20 +27,20 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
-using Newtonsoft.Json.Serialization;
+using CNewtonsoft.Json.Linq;
+using CNewtonsoft.Json.Tests.TestObjects;
+using CNewtonsoft.Json.Tests.TestObjects.Organization;
+using CNewtonsoft.Json.Serialization;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
-using Assert = Newtonsoft.Json.Tests.XUnitAssert;
+using Assert = CNewtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace CNewtonsoft.Json.Tests.Serialization
 {
     [TestFixture]
     public class ExtensionDataTests : TestFixtureBase
@@ -481,9 +481,9 @@ namespace Newtonsoft.Json.Tests.Serialization
 
             string json = JsonConvert.SerializeObject(c, new JsonSerializerSettings
             {
-                ContractResolver = new Newtonsoft.Json.Serialization.DefaultContractResolver
+                ContractResolver = new CNewtonsoft.Json.Serialization.DefaultContractResolver
                 {
-                    NamingStrategy = new Newtonsoft.Json.Serialization.CamelCaseNamingStrategy()
+                    NamingStrategy = new CNewtonsoft.Json.Serialization.CamelCaseNamingStrategy()
                 },
                 Formatting = Formatting.Indented
             });

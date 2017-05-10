@@ -25,9 +25,9 @@
 
 using System.IO;
 using System.Text;
-using Newtonsoft.Json.Bson;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
+using CNewtonsoft.Json.Bson;
+using CNewtonsoft.Json.Converters;
+using CNewtonsoft.Json.Linq;
 #if !(PORTABLE || DNXCORE50 || PORTABLE40)
 using System;
 using System.Collections.Generic;
@@ -39,9 +39,9 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 using System.Data;
-using Newtonsoft.Json.Tests.TestObjects;
+using CNewtonsoft.Json.Tests.TestObjects;
 
-namespace Newtonsoft.Json.Tests.Converters
+namespace CNewtonsoft.Json.Tests.Converters
 {
     public class DataTableConverterTests : TestFixtureBase
     {

@@ -30,7 +30,7 @@ using System.Xml;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
-using Assert = Newtonsoft.Json.Tests.XUnitAssert;
+using Assert = CNewtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 
@@ -38,7 +38,7 @@ using NUnit.Framework;
 
 #if !(DNXCORE50 || NET20 || PORTABLE || PORTABLE40)
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Xml
+namespace CNewtonsoft.Json.Tests.Documentation.Samples.Xml
 {
     [TestFixture]
     public class ConvertXmlToJson : TestFixtureBase

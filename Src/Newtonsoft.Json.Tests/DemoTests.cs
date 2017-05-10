@@ -30,23 +30,23 @@ using System.Buffers;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Schema;
-using Newtonsoft.Json.Serialization;
+using CNewtonsoft.Json.Converters;
+using CNewtonsoft.Json.Linq;
+using CNewtonsoft.Json.Schema;
+using CNewtonsoft.Json.Serialization;
 #if !(NET20 || NET35 || NET40)
 using System.Threading.Tasks;
 #endif
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
-using Assert = Newtonsoft.Json.Tests.XUnitAssert;
+using Assert = CNewtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests
+namespace CNewtonsoft.Json.Tests
 {
     [TestFixture]
     public class DemoTests : TestFixtureBase

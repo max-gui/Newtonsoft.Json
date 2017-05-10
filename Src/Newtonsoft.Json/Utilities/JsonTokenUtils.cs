@@ -26,7 +26,7 @@
 using System;
 using System.Text;
 
-namespace Newtonsoft.Json.Utilities
+namespace CNewtonsoft.Json.Utilities
 {
     internal static class JsonTokenUtils
     {
